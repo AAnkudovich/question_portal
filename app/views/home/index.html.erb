@@ -8,7 +8,7 @@
   <div class="row mt-5">
     <div class="col-md-8 offset-md-2">
       <% if user_signed_in? %>
-        question stuff will go here
+        Questions
       <% else %>
         <%= link_to "Sign in to ask a new question", new_user_session_path, class: "btn btn-primary" %>
       <% end %>
