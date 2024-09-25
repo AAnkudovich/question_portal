@@ -10,4 +10,5 @@ Rails.application.routes.draw do
     registration: 'register',
     sign_up: 'cmon_let_me_in'
   }
+  get 'pension_calculator', to: 'home#pension_calculator'
 end
