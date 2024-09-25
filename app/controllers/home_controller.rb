@@ -3,6 +3,4 @@ class HomeController < ApplicationController
     @questions = Question.all
 
   end
-
-  def pension_calculator; end
 end
